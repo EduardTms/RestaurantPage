@@ -6,6 +6,12 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: 'dist'
+  },
+  devServer: {
+    static: {
+        directory: path.join(__dirname, '/')
+    },
   },
   devtool: 'source-map',
   module: {
