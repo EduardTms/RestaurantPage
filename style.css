@@ -1,0 +1,137 @@
+:root {
+    --header-bg-color:  rgb(17,24,39);
+    --active-color: #f472b5f5;
+    --content-bg-color: #1f2937;
+}
+
+.content{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--content-bg-color);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--header-bg-color);
+    color: white;
+    border-radius: 0.5rem;
+    border-bottom: 3px solid rgb(0, 0, 0, 0.3);
+}
+
+.links, .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.links {
+    gap: 50px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-right: 20px;
+}
+
+.links > * {
+    border-bottom: 3px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+.links > a:first-child {
+    color: white;
+    border-bottom: 3px solid var(--active-color)  ;
+}
+
+#odinLogo {
+    width: 50px;
+}
+
+#nameLogo {
+    width: 80px;
+    color: var(--active-color);
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+.descriptionContainer {
+    display: flex;
+    width: 100%;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.descriptionImg {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.descriptionImg > img {
+    width: 400px;
+}
+
+.descriptionText {
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    padding: 30px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    width: 40%;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    padding: 10px;
+    color: var(--active-color);
+    border-radius: 0.5em;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.footer > .footerText > a {
+    text-decoration: none;
+    color: var(--active-color);
+}
+
+@media only screen and (max-width: 1000px) {
+    .content {
+        height: 100%;
+        width: 100%;
+    }
+
+    .descriptionContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer {
+        position: inherit;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .links, #nameLogo {
+        font-size: 0.8rem;
+    }
+
+    #odinLogo {
+        width: 30px;
+    }
+
+    .descriptionText {
+        width: 60%;
+    }
+
+    .descriptionImg > img{
+        width: 300px;
+    }
+  }
