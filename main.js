@@ -581,6 +581,43 @@ function createHeader() {
     return header;
 }
 
+/***/ }),
+
+/***/ "./src/sections/home.js":
+/*!******************************!*\
+  !*** ./src/sections/home.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ createDescription)
+/* harmony export */ });
+function createDescription() {
+    const parentContainer = document.createElement("div");
+    parentContainer.classList.add("descriptionContainer");
+
+    const imgContainer = document.createElement("div");
+    imgContainer.classList.add("descriptionImg");
+
+    const descriptionImg = document.createElement("img");
+    descriptionImg.src = "/src/assets/img/descriptionImg.png";
+    descriptionImg.alt = "OdinOnThrone";
+
+    const textContainer = document.createElement("div");
+    textContainer.classList.add("descriptionText");
+    textContainer.textContent = `Odin's opened on Viking Age Alley in 9th century CE. Chef / Owner Odin
+    began baking pies and selling them to restaurants and his neighbors
+    out of a small kitchen at the corner of Sky in Valhalla. Today,
+    Valhalla's beloved restaurant and pie shop celebrates ~ years of
+    classic, made from scratch Divine cooking.`;
+
+    imgContainer.append(descriptionImg);
+    parentContainer.append(imgContainer,textContainer);
+
+    return parentContainer;
+}
+
 /***/ })
 
 /******/ 	});
@@ -665,11 +702,14 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/css/styles.css */ "./src/css/styles.css");
 /* harmony import */ var _sections_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sections/header */ "./src/sections/header.js");
+/* harmony import */ var _sections_home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sections/home */ "./src/sections/home.js");
+
 
 
 
 const contentContainer = document.querySelector('.content');
 contentContainer.append((0,_sections_header__WEBPACK_IMPORTED_MODULE_1__["default"])());
+contentContainer.append((0,_sections_home__WEBPACK_IMPORTED_MODULE_2__["default"])());
 })();
 
 /******/ })()
