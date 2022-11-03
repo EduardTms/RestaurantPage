@@ -13,7 +13,7 @@ export default function createDescription() {
     textContainer.classList.add("descriptionText");
     textContainer.textContent = `Odin's opened on Viking Age Alley in 9th century CE. Chef / Owner Odin
     began baking pies and selling them to restaurants and his neighbors
-    out of a small kitchen at the corner of Sky in Valhalla. Today,
+    out of a small kitchen at the corner of the Sky in Valhalla. Today,
     Valhalla's beloved restaurant and pie shop celebrates ~ years of
     classic, made from scratch Divine cooking.`;
 

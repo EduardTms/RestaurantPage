@@ -32,13 +32,14 @@
     gap: 50px;
     font-weight: 600;
     font-size: 1.3rem;
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .links > * {
     border-bottom: 3px solid white;
     color: white;
     text-decoration: none;
+    letter-spacing: 3px;
 }
 
 .active {
@@ -48,6 +49,7 @@
 
 #odinLogo {
     width: 50px;
+    margin-left: 100px;
 }
 
 #nameLogo {
@@ -136,6 +138,60 @@
     color: green;
     font-weight: 600;
     letter-spacing: 2px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contactDetails,
+  .contactMap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contactDetails > *,
+  .contactMap {
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 1rem;
+  }
+
+  .contactDetails {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .contactLogo,
+  .contactAddress {
+    /* margin-right: 30px; */
+    padding: 20px;
+  }
+
+  .contactAddress {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .contactLogo > img {
+    height: 200px;
+  }
+
+  .contactMap {
+    position: relative;
+    text-align: right;
+    height: 400px;
+    width: 600px;
+    padding: 30px;
   }
 
 .footer {
