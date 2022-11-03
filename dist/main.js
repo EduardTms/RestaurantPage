@@ -530,6 +530,38 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/sections/footer.js":
+/*!********************************!*\
+  !*** ./src/sections/footer.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ createFooter)
+/* harmony export */ });
+
+function createFooter() {
+    const footerContainer = document.createElement("div");
+    footerContainer.classList.add("footer");
+
+    const footerText = document.createElement("div");
+    footerText.classList.add("footerText");
+    footerText.textContent = "Copyright © 2022 EduardTms";
+
+    const gitIcon = document.createElement("a");
+    gitIcon.setAttribute("href", "https://github.com/EduardTms");
+    gitIcon.classList.add("fa");
+    gitIcon.classList.add("fa-github");
+
+    footerText.append(gitIcon);
+    footerContainer.append(footerText);
+
+    return footerContainer;
+}
+
+/***/ }),
+
 /***/ "./src/sections/header.js":
 /*!********************************!*\
   !*** ./src/sections/header.js ***!
@@ -701,15 +733,18 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _src_css_styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/css/styles.css */ "./src/css/styles.css");
-/* harmony import */ var _sections_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sections/header */ "./src/sections/header.js");
-/* harmony import */ var _sections_home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sections/home */ "./src/sections/home.js");
+/* harmony import */ var _sections_footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sections/footer */ "./src/sections/footer.js");
+/* harmony import */ var _sections_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sections/header */ "./src/sections/header.js");
+/* harmony import */ var _sections_home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sections/home */ "./src/sections/home.js");
+
 
 
 
 
 const contentContainer = document.querySelector('.content');
-contentContainer.append((0,_sections_header__WEBPACK_IMPORTED_MODULE_1__["default"])());
-contentContainer.append((0,_sections_home__WEBPACK_IMPORTED_MODULE_2__["default"])());
+contentContainer.append((0,_sections_header__WEBPACK_IMPORTED_MODULE_2__["default"])());
+contentContainer.append((0,_sections_home__WEBPACK_IMPORTED_MODULE_3__["default"])());
+contentContainer.append((0,_sections_footer__WEBPACK_IMPORTED_MODULE_1__["default"])());
 })();
 
 /******/ })()
