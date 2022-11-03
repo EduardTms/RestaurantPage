@@ -41,7 +41,7 @@
     text-decoration: none;
 }
 
-.links > a:first-child {
+.active {
     color: white;
     border-bottom: 3px solid var(--active-color)  ;
 }
