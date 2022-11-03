@@ -18,7 +18,6 @@ function setActiveLink(newActive) {
       newActive.classList.toggle("active");
     }
     if((newActive).textContent !== 'Menu') {
-        contentContainer.style.height = "100vh";
     }
     else{
         contentContainer.style.height = "100%";
@@ -39,12 +38,12 @@ Array.from(menuLinks).forEach((link) => {
                 break;
 
             case "Contact":
-                contentContainer.append(createFooter());
                 contentContainer.replaceChild(createContact(),contentContainer.childNodes[1]);
+                    contentContainer.append(createFooter());
                 break;
             default: 
                 contentContainer.replaceChild(createDescription(),contentContainer.childNodes[1]);
-                contentContainer.append(createFooter());
+                    contentContainer.append(createFooter());
                 break;
         }
     });

@@ -243,3 +243,63 @@
         width: 300px;
     }
   }
+
+  @media only screen and (max-width: 415px) {
+    .links, #odinLogo {
+        font-size: 0.8rem;
+        margin: 0;
+        gap: 20px;
+    }
+
+    #odinLogo {
+        width: 30px;
+    }
+
+    .descriptionText {
+        width: 60%;
+    }
+
+    .descriptionImg > img{
+        width: 300px;
+    }
+
+    .contactMap{
+      width: 200px;
+      height: 200px;
+      margin-top: 30px;
+    }
+
+    .content {
+      height: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .links, #odinLogo {
+        font-size: 0.8rem;
+        margin: 0;
+        gap: 20px;
+    }
+
+    #odinLogo {
+        width: 30px;
+    }
+
+    .descriptionText {
+        width: 60%;
+    }
+
+    .descriptionImg > img{
+        width: 300px;
+    }
+
+    .contactMap{
+      width: 200px;
+      height: 200px;
+      margin-top: 30px;
+    }
+
+    .content {
+      height: 100%;
+    }
+  }
