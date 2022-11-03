@@ -20,16 +20,19 @@ export default function createHeader() {
 
     const homeLink = document.createElement("a");
     homeLink.classList.add("home");
+    homeLink.classList.add("headerLink");
+    homeLink.style.cursor = "pointer";
     homeLink.textContent = "Home";
-    homeLink.setAttribute("href", "#");
     homeLink.classList.add("active");
     const menuLink = document.createElement("a");
     menuLink.classList.add('ourMenu');
-    menuLink.setAttribute("href", "#");
+    menuLink.classList.add("headerLink");
+    menuLink.style.cursor = "pointer";
     menuLink.textContent = "Menu";
     const contactLink = document.createElement("a");
     contactLink.classList.add('contact');
-    contactLink.setAttribute("href", "#");
+    contactLink.classList.add("headerLink");
+    contactLink.style.cursor = "pointer";
     contactLink.textContent = "Contact";
 
     logoContainer.append(odinPicture,restaurantName);
