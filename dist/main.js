@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    --header-bg-color:  rgb(17,24,39);\n    --active-color: #f472b5f5;\n    --content-bg-color: #1f2937;\n}\n\n.content{\n    height: 100vh;\n    width: 100vw;\n    background-color: var(--content-bg-color);\n}\n\n.header {\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    background-color: var(--header-bg-color);\n    color: white;\n    border-radius: 0.5rem;\n    border-bottom: 3px solid rgb(0, 0, 0, 0.3);\n}\n\n.links, .logo {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    padding: 10px;\n}\n\n.links {\n    gap: 50px;\n    font-weight: 600;\n    font-size: 1.3rem;\n    margin-right: 20px;\n}\n\n.links > * {\n    border-bottom: 3px solid white;\n    color: white;\n    text-decoration: none;\n}\n\n.active {\n    color: white;\n    border-bottom: 3px solid var(--active-color)  ;\n}\n\n#odinLogo {\n    width: 50px;\n}\n\n#nameLogo {\n    width: 80px;\n    color: var(--active-color);\n    font-weight: 600;\n    font-size: 1.7rem;\n}\n\n.descriptionContainer {\n    display: flex;\n    width: 100%;\n    margin-top: 10%;\n    align-items: center;\n    justify-content: center;\n    color: white;\n}\n\n.descriptionImg {\n    width: 20%;\n    display: flex;\n    justify-content: center;\n}\n\n.descriptionImg > img {\n    width: 400px;\n}\n\n.descriptionText {\n    background-color: rgb(0, 0, 0, 0.3);\n    border-radius: 1rem;\n    padding: 30px;\n    margin-left: 30px;\n    letter-spacing: 2px;\n    font-size: 1.5rem;\n    width: 40%;\n}\n\n.footer {\n    position:absolute;\n    bottom:0;\n    padding: 10px;\n    color: var(--active-color);\n    border-radius: 0.5em;\n    display: flex;\n    width: 90%;\n    justify-content: center;\n}\n\n.footer > .footerText > a {\n    text-decoration: none;\n    color: var(--active-color);\n}\n\n@media only screen and (max-width: 1000px) {\n    .content {\n        height: 100%;\n        width: 100%;\n    }\n\n    .descriptionContainer {\n        display: flex;\n        flex-direction: column;\n    }\n\n    .footer {\n        position: inherit;\n    }\n  }\n\n  @media only screen and (max-width: 500px) {\n    .links, #nameLogo {\n        font-size: 0.8rem;\n    }\n\n    #odinLogo {\n        width: 30px;\n    }\n\n    .descriptionText {\n        width: 60%;\n    }\n\n    .descriptionImg > img{\n        width: 300px;\n    }\n  }", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;IACI,iCAAiC;IACjC,yBAAyB;IACzB,2BAA2B;AAC/B;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,yCAAyC;AAC7C;;AAEA;IACI,WAAW;IACX,aAAa;IACb,mBAAmB;IACnB,8BAA8B;IAC9B,wCAAwC;IACxC,YAAY;IACZ,qBAAqB;IACrB,0CAA0C;AAC9C;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,SAAS;IACT,aAAa;AACjB;;AAEA;IACI,SAAS;IACT,gBAAgB;IAChB,iBAAiB;IACjB,kBAAkB;AACtB;;AAEA;IACI,8BAA8B;IAC9B,YAAY;IACZ,qBAAqB;AACzB;;AAEA;IACI,YAAY;IACZ,8CAA8C;AAClD;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,WAAW;IACX,0BAA0B;IAC1B,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,aAAa;IACb,WAAW;IACX,eAAe;IACf,mBAAmB;IACnB,uBAAuB;IACvB,YAAY;AAChB;;AAEA;IACI,UAAU;IACV,aAAa;IACb,uBAAuB;AAC3B;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,mCAAmC;IACnC,mBAAmB;IACnB,aAAa;IACb,iBAAiB;IACjB,mBAAmB;IACnB,iBAAiB;IACjB,UAAU;AACd;;AAEA;IACI,iBAAiB;IACjB,QAAQ;IACR,aAAa;IACb,0BAA0B;IAC1B,oBAAoB;IACpB,aAAa;IACb,UAAU;IACV,uBAAuB;AAC3B;;AAEA;IACI,qBAAqB;IACrB,0BAA0B;AAC9B;;AAEA;IACI;QACI,YAAY;QACZ,WAAW;IACf;;IAEA;QACI,aAAa;QACb,sBAAsB;IAC1B;;IAEA;QACI,iBAAiB;IACrB;EACF;;EAEA;IACE;QACI,iBAAiB;IACrB;;IAEA;QACI,WAAW;IACf;;IAEA;QACI,UAAU;IACd;;IAEA;QACI,YAAY;IAChB;EACF","sourcesContent":[":root {\n    --header-bg-color:  rgb(17,24,39);\n    --active-color: #f472b5f5;\n    --content-bg-color: #1f2937;\n}\n\n.content{\n    height: 100vh;\n    width: 100vw;\n    background-color: var(--content-bg-color);\n}\n\n.header {\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    background-color: var(--header-bg-color);\n    color: white;\n    border-radius: 0.5rem;\n    border-bottom: 3px solid rgb(0, 0, 0, 0.3);\n}\n\n.links, .logo {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    padding: 10px;\n}\n\n.links {\n    gap: 50px;\n    font-weight: 600;\n    font-size: 1.3rem;\n    margin-right: 20px;\n}\n\n.links > * {\n    border-bottom: 3px solid white;\n    color: white;\n    text-decoration: none;\n}\n\n.active {\n    color: white;\n    border-bottom: 3px solid var(--active-color)  ;\n}\n\n#odinLogo {\n    width: 50px;\n}\n\n#nameLogo {\n    width: 80px;\n    color: var(--active-color);\n    font-weight: 600;\n    font-size: 1.7rem;\n}\n\n.descriptionContainer {\n    display: flex;\n    width: 100%;\n    margin-top: 10%;\n    align-items: center;\n    justify-content: center;\n    color: white;\n}\n\n.descriptionImg {\n    width: 20%;\n    display: flex;\n    justify-content: center;\n}\n\n.descriptionImg > img {\n    width: 400px;\n}\n\n.descriptionText {\n    background-color: rgb(0, 0, 0, 0.3);\n    border-radius: 1rem;\n    padding: 30px;\n    margin-left: 30px;\n    letter-spacing: 2px;\n    font-size: 1.5rem;\n    width: 40%;\n}\n\n.footer {\n    position:absolute;\n    bottom:0;\n    padding: 10px;\n    color: var(--active-color);\n    border-radius: 0.5em;\n    display: flex;\n    width: 90%;\n    justify-content: center;\n}\n\n.footer > .footerText > a {\n    text-decoration: none;\n    color: var(--active-color);\n}\n\n@media only screen and (max-width: 1000px) {\n    .content {\n        height: 100%;\n        width: 100%;\n    }\n\n    .descriptionContainer {\n        display: flex;\n        flex-direction: column;\n    }\n\n    .footer {\n        position: inherit;\n    }\n  }\n\n  @media only screen and (max-width: 500px) {\n    .links, #nameLogo {\n        font-size: 0.8rem;\n    }\n\n    #odinLogo {\n        width: 30px;\n    }\n\n    .descriptionText {\n        width: 60%;\n    }\n\n    .descriptionImg > img{\n        width: 300px;\n    }\n  }"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    --header-bg-color:  rgb(17,24,39);\n    --active-color: #f472b5f5;\n    --content-bg-color: #1f2937;\n}\n\n.content{\n    /* height: 100%;\n    width: 100vw; */\n    background-color: var(--content-bg-color);\n}\n\n.header {\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    background-color: var(--header-bg-color);\n    color: white;\n    border-radius: 0.5rem;\n    border-bottom: 3px solid rgb(0, 0, 0, 0.3);\n}\n\n.links, .logo {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    padding: 10px;\n}\n\n.links {\n    gap: 50px;\n    font-weight: 600;\n    font-size: 1.3rem;\n    margin-right: 20px;\n}\n\n.links > * {\n    border-bottom: 3px solid white;\n    color: white;\n    text-decoration: none;\n}\n\n.active {\n    color: white;\n    border-bottom: 3px solid var(--active-color)  ;\n}\n\n#odinLogo {\n    width: 50px;\n}\n\n#nameLogo {\n    width: 80px;\n    color: var(--active-color);\n    font-weight: 600;\n    font-size: 1.7rem;\n}\n\n.descriptionContainer {\n    display: flex;\n    width: 100%;\n    margin-top: 10%;\n    align-items: center;\n    justify-content: center;\n    color: white;\n}\n\n.descriptionImg {\n    width: 20%;\n    display: flex;\n    justify-content: center;\n}\n\n.descriptionImg > img {\n    width: 400px;\n}\n\n.descriptionText {\n    background-color: rgb(0, 0, 0, 0.3);\n    border-radius: 1rem;\n    padding: 30px;\n    margin-left: 30px;\n    letter-spacing: 2px;\n    font-size: 1.5rem;\n    width: 40%;\n}\n\n.meals {\n    display: flex;\n    align-items: center;\n    justify-items: center;\n    justify-content: center;\n    flex-wrap: wrap;\n    /* grid-template-rows: repeat(auto-fill, 300px); */\n    /* grid-template-columns: repeat(auto-fill, 400px); */\n    margin: 50px 0;\n    gap: 30px;\n    width: 100%;\n    height: 100%;\n  }\n\n  .meal {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-direction: column;\n    width: 400px;\n    height: 400px;\n    padding: 10px;\n    color: white;\n    background-color: rgb(0, 0, 0, 0.3);\n    border-radius: 1rem;\n  }\n\n  .meal > * {\n    margin-bottom: 30px;\n  }\n\n  .meal > img {\n    width: 200px;\n  }\n\n  .mealName {\n    font-size: 1.7rem;\n    font-weight: 600;\n    color: #f472b5f5;\n  }\n\n  .mealIngredients {\n    color: #666e7a;\n    text-align: center;\n  }\n\n  .mealPrice {\n    color: green;\n    font-weight: 600;\n    letter-spacing: 2px;\n  }\n\n.footer {\n    position:absolute;\n    bottom:0;\n    padding: 10px;\n    color: var(--active-color);\n    border-radius: 0.5em;\n    display: flex;\n    width: 90%;\n    justify-content: center;\n}\n\n.footer > .footerText > a {\n    text-decoration: none;\n    color: var(--active-color);\n}\n\n@media only screen and (max-width: 1000px) {\n    .content {\n        height: 100%;\n        width: 100%;\n    }\n\n    .descriptionContainer {\n        display: flex;\n        flex-direction: column;\n    }\n\n    .footer {\n        position: inherit;\n    }\n  }\n\n  @media only screen and (max-width: 500px) {\n    .links, #nameLogo {\n        font-size: 0.8rem;\n    }\n\n    #odinLogo {\n        width: 30px;\n    }\n\n    .descriptionText {\n        width: 60%;\n    }\n\n    .descriptionImg > img{\n        width: 300px;\n    }\n  }", "",{"version":3,"sources":["webpack://./src/css/styles.css"],"names":[],"mappings":"AAAA;IACI,iCAAiC;IACjC,yBAAyB;IACzB,2BAA2B;AAC/B;;AAEA;IACI;mBACe;IACf,yCAAyC;AAC7C;;AAEA;IACI,WAAW;IACX,aAAa;IACb,mBAAmB;IACnB,8BAA8B;IAC9B,wCAAwC;IACxC,YAAY;IACZ,qBAAqB;IACrB,0CAA0C;AAC9C;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,SAAS;IACT,aAAa;AACjB;;AAEA;IACI,SAAS;IACT,gBAAgB;IAChB,iBAAiB;IACjB,kBAAkB;AACtB;;AAEA;IACI,8BAA8B;IAC9B,YAAY;IACZ,qBAAqB;AACzB;;AAEA;IACI,YAAY;IACZ,8CAA8C;AAClD;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,WAAW;IACX,0BAA0B;IAC1B,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,aAAa;IACb,WAAW;IACX,eAAe;IACf,mBAAmB;IACnB,uBAAuB;IACvB,YAAY;AAChB;;AAEA;IACI,UAAU;IACV,aAAa;IACb,uBAAuB;AAC3B;;AAEA;IACI,YAAY;AAChB;;AAEA;IACI,mCAAmC;IACnC,mBAAmB;IACnB,aAAa;IACb,iBAAiB;IACjB,mBAAmB;IACnB,iBAAiB;IACjB,UAAU;AACd;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,qBAAqB;IACrB,uBAAuB;IACvB,eAAe;IACf,kDAAkD;IAClD,qDAAqD;IACrD,cAAc;IACd,SAAS;IACT,WAAW;IACX,YAAY;EACd;;EAEA;IACE,aAAa;IACb,mBAAmB;IACnB,uBAAuB;IACvB,sBAAsB;IACtB,YAAY;IACZ,aAAa;IACb,aAAa;IACb,YAAY;IACZ,mCAAmC;IACnC,mBAAmB;EACrB;;EAEA;IACE,mBAAmB;EACrB;;EAEA;IACE,YAAY;EACd;;EAEA;IACE,iBAAiB;IACjB,gBAAgB;IAChB,gBAAgB;EAClB;;EAEA;IACE,cAAc;IACd,kBAAkB;EACpB;;EAEA;IACE,YAAY;IACZ,gBAAgB;IAChB,mBAAmB;EACrB;;AAEF;IACI,iBAAiB;IACjB,QAAQ;IACR,aAAa;IACb,0BAA0B;IAC1B,oBAAoB;IACpB,aAAa;IACb,UAAU;IACV,uBAAuB;AAC3B;;AAEA;IACI,qBAAqB;IACrB,0BAA0B;AAC9B;;AAEA;IACI;QACI,YAAY;QACZ,WAAW;IACf;;IAEA;QACI,aAAa;QACb,sBAAsB;IAC1B;;IAEA;QACI,iBAAiB;IACrB;EACF;;EAEA;IACE;QACI,iBAAiB;IACrB;;IAEA;QACI,WAAW;IACf;;IAEA;QACI,UAAU;IACd;;IAEA;QACI,YAAY;IAChB;EACF","sourcesContent":[":root {\n    --header-bg-color:  rgb(17,24,39);\n    --active-color: #f472b5f5;\n    --content-bg-color: #1f2937;\n}\n\n.content{\n    /* height: 100%;\n    width: 100vw; */\n    background-color: var(--content-bg-color);\n}\n\n.header {\n    width: 100%;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    background-color: var(--header-bg-color);\n    color: white;\n    border-radius: 0.5rem;\n    border-bottom: 3px solid rgb(0, 0, 0, 0.3);\n}\n\n.links, .logo {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    padding: 10px;\n}\n\n.links {\n    gap: 50px;\n    font-weight: 600;\n    font-size: 1.3rem;\n    margin-right: 20px;\n}\n\n.links > * {\n    border-bottom: 3px solid white;\n    color: white;\n    text-decoration: none;\n}\n\n.active {\n    color: white;\n    border-bottom: 3px solid var(--active-color)  ;\n}\n\n#odinLogo {\n    width: 50px;\n}\n\n#nameLogo {\n    width: 80px;\n    color: var(--active-color);\n    font-weight: 600;\n    font-size: 1.7rem;\n}\n\n.descriptionContainer {\n    display: flex;\n    width: 100%;\n    margin-top: 10%;\n    align-items: center;\n    justify-content: center;\n    color: white;\n}\n\n.descriptionImg {\n    width: 20%;\n    display: flex;\n    justify-content: center;\n}\n\n.descriptionImg > img {\n    width: 400px;\n}\n\n.descriptionText {\n    background-color: rgb(0, 0, 0, 0.3);\n    border-radius: 1rem;\n    padding: 30px;\n    margin-left: 30px;\n    letter-spacing: 2px;\n    font-size: 1.5rem;\n    width: 40%;\n}\n\n.meals {\n    display: flex;\n    align-items: center;\n    justify-items: center;\n    justify-content: center;\n    flex-wrap: wrap;\n    /* grid-template-rows: repeat(auto-fill, 300px); */\n    /* grid-template-columns: repeat(auto-fill, 400px); */\n    margin: 50px 0;\n    gap: 30px;\n    width: 100%;\n    height: 100%;\n  }\n\n  .meal {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    flex-direction: column;\n    width: 400px;\n    height: 400px;\n    padding: 10px;\n    color: white;\n    background-color: rgb(0, 0, 0, 0.3);\n    border-radius: 1rem;\n  }\n\n  .meal > * {\n    margin-bottom: 30px;\n  }\n\n  .meal > img {\n    width: 200px;\n  }\n\n  .mealName {\n    font-size: 1.7rem;\n    font-weight: 600;\n    color: #f472b5f5;\n  }\n\n  .mealIngredients {\n    color: #666e7a;\n    text-align: center;\n  }\n\n  .mealPrice {\n    color: green;\n    font-weight: 600;\n    letter-spacing: 2px;\n  }\n\n.footer {\n    position:absolute;\n    bottom:0;\n    padding: 10px;\n    color: var(--active-color);\n    border-radius: 0.5em;\n    display: flex;\n    width: 90%;\n    justify-content: center;\n}\n\n.footer > .footerText > a {\n    text-decoration: none;\n    color: var(--active-color);\n}\n\n@media only screen and (max-width: 1000px) {\n    .content {\n        height: 100%;\n        width: 100%;\n    }\n\n    .descriptionContainer {\n        display: flex;\n        flex-direction: column;\n    }\n\n    .footer {\n        position: inherit;\n    }\n  }\n\n  @media only screen and (max-width: 500px) {\n    .links, #nameLogo {\n        font-size: 0.8rem;\n    }\n\n    #odinLogo {\n        width: 30px;\n    }\n\n    .descriptionText {\n        width: 60%;\n    }\n\n    .descriptionImg > img{\n        width: 300px;\n    }\n  }"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -530,6 +530,194 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/components/mealCard.js":
+/*!************************************!*\
+  !*** ./src/components/mealCard.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ createMeal)
+/* harmony export */ });
+function createMeal(meal) {
+    const card = document.createElement("div");
+    card.classList.add("meal");
+
+    const image = new Image();
+    image.src = meal.img;
+    image.setAttribute("alt", "Meal");
+
+    const mealName = document.createElement("p");
+    mealName.classList.add("mealName");
+    mealName.textContent = meal.name;
+
+    const mealIngredients = document.createElement("p");
+    mealIngredients.classList.add("mealIngredients");
+    meal.ingredients.forEach((ingredient,index) => {
+        mealIngredients.textContent += ingredient;
+        mealIngredients.textContent += 
+        index != meal.ingredients.length -1 ? ", " : ".";
+    });
+
+    const mealPrice = document.createElement("p");
+    mealPrice.classList.add("mealPrice");
+    mealPrice.textContent = meal.price;
+
+    card.append(image,mealName,mealIngredients,mealPrice);
+    return card;
+}
+
+/***/ }),
+
+/***/ "./src/data/meals.js":
+/*!***************************!*\
+  !*** ./src/data/meals.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _src_assets_img_burger_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../src/assets/img/burger.png */ "./src/assets/img/burger.png");
+/* harmony import */ var _src_assets_img_burrito_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../src/assets/img/burrito.png */ "./src/assets/img/burrito.png");
+/* harmony import */ var _src_assets_img_chipsGuacamole_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../src/assets/img/chipsGuacamole.png */ "./src/assets/img/chipsGuacamole.png");
+/* harmony import */ var _src_assets_img_openTaco_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../../src/assets/img/openTaco.png */ "./src/assets/img/openTaco.png");
+/* harmony import */ var _src_assets_img_quesadilla_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../../src/assets/img/quesadilla.png */ "./src/assets/img/quesadilla.png");
+/* harmony import */ var _src_assets_img_salad_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../../src/assets/img/salad.png */ "./src/assets/img/salad.png");
+/* harmony import */ var _src_assets_img_tacos_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../../src/assets/img/tacos.png */ "./src/assets/img/tacos.png");
+/* harmony import */ var _src_assets_img_pastries_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../../src/assets/img/pastries.png */ "./src/assets/img/pastries.png");
+
+
+
+
+
+
+
+
+
+const meals = [
+    {
+        img: _src_assets_img_burrito_png__WEBPACK_IMPORTED_MODULE_1__,
+        name: "Burrito",
+        ingredients: [
+            "Beef",
+            "White rice",
+            "Corn",
+            "Black beans",
+            "Cabbage",
+            "Tomato",
+            "Onion",
+            "Cheese",
+            "Cilantro"
+        ],
+        price: "$13.00",
+    },
+    {
+        img: _src_assets_img_tacos_png__WEBPACK_IMPORTED_MODULE_6__,
+        name: "Tacos",
+        ingredients: [
+            "Beef",
+            "Chili powder",
+            "Onion powder",
+            "Lettuce",
+            "Tomato sauce",
+            "Cheddar",
+            "Salsa"
+        ],
+        price: "$10.50",
+    },
+    {
+        img: _src_assets_img_quesadilla_png__WEBPACK_IMPORTED_MODULE_4__,
+        name: "Quesadilla",
+        ingredients: [
+            "Mushrooms",
+            "Avocado",
+            "Lettuce",
+            "Chicken",
+            "Tomato",
+            "Green Onion",
+            "Cheddar",
+            "Butter"
+        ],
+        price: "$15.50",
+    },
+    {
+        img: _src_assets_img_salad_png__WEBPACK_IMPORTED_MODULE_5__,
+        name: "Salad",
+        ingredients: [
+            "Chicken",
+            "Avocado",
+            "Lettuce",
+            "Tomato",
+            "Green Onion",
+            "Salsa"
+        ],
+        price: "$15.50",
+    },
+    {
+        img: _src_assets_img_openTaco_png__WEBPACK_IMPORTED_MODULE_3__,
+        name: "Open Taco",
+        ingredients: [
+            "Chicken",
+            "Paprika",
+            "Oregano",
+            "Garlic Powder",
+            "Avocado",
+            "Green Onion",
+            "Lime",
+            "Canola Oil"
+        ],
+        price: "$13.50",
+    },
+    {
+        img: _src_assets_img_burger_png__WEBPACK_IMPORTED_MODULE_0__,
+        name: "Beef Burger",
+        ingredients: [
+            "Lean Beef",
+            "Egg",
+            "Onion",
+            "Garlic",
+            "Mayo",
+            "Ketchup",
+            "Cheddar",
+            "Lettuce"
+        ],
+        price: "$18.50",
+    },
+    {
+        img: _src_assets_img_pastries_png__WEBPACK_IMPORTED_MODULE_7__,
+        name: "Pastries",
+        ingredients: [
+            "Apples",
+            "Raisins",
+            "Egg",
+            "Cinnamon",
+            "Powdered Sugar",
+            "Sugar",
+        ],
+        price: "$6.00",
+    },
+    {
+        img: _src_assets_img_chipsGuacamole_png__WEBPACK_IMPORTED_MODULE_2__,
+        name: "Guacamole Chips",
+        ingredients: [
+            "Avocado",
+            "Red onion",
+            "Jalapeno",
+            "Cilantro",
+            "Lime juice",
+            "Tortilla chips",
+        ],
+        price: "$8.00",
+    },
+];
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (meals);
+
+/***/ }),
+
 /***/ "./src/sections/footer.js":
 /*!********************************!*\
   !*** ./src/sections/footer.js ***!
@@ -650,6 +838,115 @@ function createDescription() {
     return parentContainer;
 }
 
+/***/ }),
+
+/***/ "./src/sections/menu.js":
+/*!******************************!*\
+  !*** ./src/sections/menu.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ createMenu)
+/* harmony export */ });
+/* harmony import */ var _components_mealCard_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/mealCard.js */ "./src/components/mealCard.js");
+/* harmony import */ var _data_meals_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data/meals.js */ "./src/data/meals.js");
+
+
+
+function createMenu() {
+    const parentContainer = document.createElement("div");
+    parentContainer.classList.add("meals");
+
+    _data_meals_js__WEBPACK_IMPORTED_MODULE_1__["default"].forEach((meal) => {
+        const card = (0,_components_mealCard_js__WEBPACK_IMPORTED_MODULE_0__["default"])(meal);
+        parentContainer.append(card);
+    });
+
+    return parentContainer;
+}
+
+/***/ }),
+
+/***/ "./src/assets/img/burger.png":
+/*!***********************************!*\
+  !*** ./src/assets/img/burger.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "0563ceb7e20697625631.png";
+
+/***/ }),
+
+/***/ "./src/assets/img/burrito.png":
+/*!************************************!*\
+  !*** ./src/assets/img/burrito.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "1fec9a02d440db0ebf60.png";
+
+/***/ }),
+
+/***/ "./src/assets/img/chipsGuacamole.png":
+/*!*******************************************!*\
+  !*** ./src/assets/img/chipsGuacamole.png ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "0571077af68ad8b49851.png";
+
+/***/ }),
+
+/***/ "./src/assets/img/openTaco.png":
+/*!*************************************!*\
+  !*** ./src/assets/img/openTaco.png ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "149b927f533e899d4484.png";
+
+/***/ }),
+
+/***/ "./src/assets/img/pastries.png":
+/*!*************************************!*\
+  !*** ./src/assets/img/pastries.png ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "4497b8ef9458c28458f0.png";
+
+/***/ }),
+
+/***/ "./src/assets/img/quesadilla.png":
+/*!***************************************!*\
+  !*** ./src/assets/img/quesadilla.png ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "00e719edf1a8d75e27aa.png";
+
+/***/ }),
+
+/***/ "./src/assets/img/salad.png":
+/*!**********************************!*\
+  !*** ./src/assets/img/salad.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "55aaa7001a47820e030a.png";
+
+/***/ }),
+
+/***/ "./src/assets/img/tacos.png":
+/*!**********************************!*\
+  !*** ./src/assets/img/tacos.png ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "2f3a1725169d5310b114.png";
+
 /***/ })
 
 /******/ 	});
@@ -719,6 +1016,11 @@ function createDescription() {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		__webpack_require__.p = "./";
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -736,6 +1038,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sections_footer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./sections/footer */ "./src/sections/footer.js");
 /* harmony import */ var _sections_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./sections/header */ "./src/sections/header.js");
 /* harmony import */ var _sections_home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./sections/home */ "./src/sections/home.js");
+/* harmony import */ var _sections_menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./sections/menu */ "./src/sections/menu.js");
+
 
 
 
@@ -743,8 +1047,12 @@ __webpack_require__.r(__webpack_exports__);
 
 const contentContainer = document.querySelector('.content');
 contentContainer.append((0,_sections_header__WEBPACK_IMPORTED_MODULE_2__["default"])());
-contentContainer.append((0,_sections_home__WEBPACK_IMPORTED_MODULE_3__["default"])());
+contentContainer.append((0,_sections_menu__WEBPACK_IMPORTED_MODULE_4__["default"])());
+contentContainer.style.height = "100%";
+// contentContainer.style.width = "calc(100%-20px)";
 contentContainer.append((0,_sections_footer__WEBPACK_IMPORTED_MODULE_1__["default"])());
+const foot = document.querySelector(".footer");
+foot.style.position = "relative";
 })();
 
 /******/ })()

@@ -1,11 +1,11 @@
-import burger from 'src/assets/img/burger.png';
-import burrito from 'src/assets/img/burrito.png';
-import chipsGuacamole from 'src/assets/img/chipsGuacamole.png';
-import openTaco from 'src/assets/img/openTaco.png';
-import quesadilla from 'src/assets/img/quesadilla.png';
-import salad from 'src/assets/img/salad.png';
-import tacos from 'src/assets/img/tacos.png';
-import pastries from 'src/assets/img/pastries.png';
+import burger from '/src/assets/img/burger.png';
+import burrito from '/src/assets/img/burrito.png';
+import chipsGuacamole from '/src/assets/img/chipsGuacamole.png';
+import openTaco from '/src/assets/img/openTaco.png';
+import quesadilla from '/src/assets/img/quesadilla.png';
+import salad from '/src/assets/img/salad.png';
+import tacos from '/src/assets/img/tacos.png';
+import pastries from '/src/assets/img/pastries.png';
 
 const meals = [
     {
