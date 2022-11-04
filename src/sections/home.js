@@ -1,3 +1,5 @@
+import odinOnThrone from "/src/assets/img/descriptionImg.png";
+
 export default function createDescription() {
     const parentContainer = document.createElement("div");
     parentContainer.classList.add("descriptionContainer");
@@ -6,7 +8,7 @@ export default function createDescription() {
     imgContainer.classList.add("descriptionImg");
 
     const descriptionImg = document.createElement("img");
-    descriptionImg.src = "/src/assets/img/descriptionImg.png";
+    descriptionImg.src = odinOnThrone;
     descriptionImg.alt = "OdinOnThrone";
 
     const textContainer = document.createElement("div");

@@ -1,3 +1,5 @@
+import logo from "/src/assets/img/odin.png";
+
 export default function createHeader() {
     // -----Header-----
     const header = document.createElement("div");
@@ -8,7 +10,7 @@ export default function createHeader() {
     logoContainer.classList.add("logo");
 
     const odinPicture = document.createElement("img");
-    odinPicture.src = "../src/assets/img/odin.png";
+    odinPicture.src = logo;
     odinPicture.setAttribute("id", "odinLogo");
     const restaurantName = document.createElement("p");
     restaurantName.setAttribute("id", "nameLogo");
