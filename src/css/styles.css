@@ -223,12 +223,24 @@
 
     .footer {
         position: inherit;
+        visibility: hidden;
     }
+
+    .links, #nameLogo, #odinLogo {
+      margin: 0;
+      gap: 20px;
+  }
   }
 
-  @media only screen and (max-width: 500px) {
-    .links, #nameLogo {
+  @media only screen and (max-width: 600px) {
+    .content {
+      height: 100%;
+    }
+    
+    .links, #nameLogo, #odinLogo {
         font-size: 0.8rem;
+        margin: 0;
+        gap: 20px;
     }
 
     #odinLogo {
@@ -242,9 +254,17 @@
     .descriptionImg > img{
         width: 300px;
     }
+
+    .footer {
+      visibility: hidden;
+    }
   }
 
-  @media only screen and (max-width: 415px) {
+  @media only screen and (max-width: 420px) {
+    .content {
+      height: 100%;
+    }
+
     .links, #odinLogo {
         font-size: 0.8rem;
         margin: 0;
@@ -272,9 +292,17 @@
     .content {
       height: 100%;
     }
+
+    .footer {
+      visibility: hidden;
+    }
   }
 
-  @media only screen and (max-width: 375px) {
+  @media only screen and (max-width: 390px) {
+    .content {
+      height: 100%;
+    }
+
     .links, #odinLogo {
         font-size: 0.8rem;
         margin: 0;
@@ -301,5 +329,9 @@
 
     .content {
       height: 100%;
+    }
+
+    .footer {
+      visibility: hidden;
     }
   }

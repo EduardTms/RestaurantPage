@@ -40,10 +40,12 @@ Array.from(menuLinks).forEach((link) => {
             case "Contact":
                 contentContainer.replaceChild(createContact(),contentContainer.childNodes[1]);
                     contentContainer.append(createFooter());
+                     contentContainer.style.height = "100vh";
                 break;
             default: 
                 contentContainer.replaceChild(createDescription(),contentContainer.childNodes[1]);
                     contentContainer.append(createFooter());
+                contentContainer.style.height = "100vh";
                 break;
         }
     });
