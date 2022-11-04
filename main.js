@@ -832,6 +832,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ createHeader)
 /* harmony export */ });
+/* harmony import */ var _src_assets_img_odin_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../src/assets/img/odin.png */ "./src/assets/img/odin.png");
+
+
 function createHeader() {
     // -----Header-----
     const header = document.createElement("div");
@@ -842,7 +845,7 @@ function createHeader() {
     logoContainer.classList.add("logo");
 
     const odinPicture = document.createElement("img");
-    odinPicture.src = "../src/assets/img/odin.png";
+    odinPicture.src = _src_assets_img_odin_png__WEBPACK_IMPORTED_MODULE_0__;
     odinPicture.setAttribute("id", "odinLogo");
     const restaurantName = document.createElement("p");
     restaurantName.setAttribute("id", "nameLogo");
@@ -888,6 +891,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ createDescription)
 /* harmony export */ });
+/* harmony import */ var _src_assets_img_descriptionImg_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../src/assets/img/descriptionImg.png */ "./src/assets/img/descriptionImg.png");
+
+
 function createDescription() {
     const parentContainer = document.createElement("div");
     parentContainer.classList.add("descriptionContainer");
@@ -896,7 +902,7 @@ function createDescription() {
     imgContainer.classList.add("descriptionImg");
 
     const descriptionImg = document.createElement("img");
-    descriptionImg.src = "/src/assets/img/descriptionImg.png";
+    descriptionImg.src = _src_assets_img_descriptionImg_png__WEBPACK_IMPORTED_MODULE_0__;
     descriptionImg.alt = "OdinOnThrone";
 
     const textContainer = document.createElement("div");
@@ -971,6 +977,26 @@ module.exports = __webpack_require__.p + "1fec9a02d440db0ebf60.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "0571077af68ad8b49851.png";
+
+/***/ }),
+
+/***/ "./src/assets/img/descriptionImg.png":
+/*!*******************************************!*\
+  !*** ./src/assets/img/descriptionImg.png ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "cddfae9a2501d5748742.png";
+
+/***/ }),
+
+/***/ "./src/assets/img/odin.png":
+/*!*********************************!*\
+  !*** ./src/assets/img/odin.png ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "76b0b5ce952f238d4768.png";
 
 /***/ }),
 
